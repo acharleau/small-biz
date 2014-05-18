@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My code starts here after the CSS reset.*/
+
+html{
+    /* This image will be displayed fullscreen */
+    background:url("http://the-flick.com/wordpress/wp-content/uploads/2012/06/Girl-typewriter.jpg") no-repeat left center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:contain;
+}
+
+body{
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+}
+
+div.header {
+	margin: 5px 5px 5px 5px;
+	border: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	font-family: Georgia;
+	font-size: 50px;
+	text-align: left;
+	color: #E65CE6;
+	height: 50px;
+	position: absolute;
+	right: 65px;
+	top: 10px;
+}
+
+div.title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+div.handwriting {
+	font-size: 16px;
+	color: #5c5ce6;
+}
+
+div.description {
+	margin: 5px 5px 5px 5px;
+	border: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	font-family: Georgia;
+	font-size: 16px;
+	width: 300px;
+	text-align: left;
+	position: absolute;
+	right: 10px;
+	top: 90px;
+}
+
+div.bullets {
+	font-size: 14px;
+}
+
+div.footer {
+	margin: 5px 5px 5px 5px;
+	border: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	table-layout: fixed;
+	width: 260px;
+    clear: both;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+	right: 60px;
+	bottom: 10px;
+}
+
+td {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+ul {
+	list-style-position: inside;
+}
